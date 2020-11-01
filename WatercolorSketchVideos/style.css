@@ -1,0 +1,255 @@
+*{
+    margin:0; 
+    padding:0; 
+}
+
+header{
+    
+    height: 6.5rem;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    display: flexbox;
+    align-items: center;
+    background-image: url(./images/plate1.jpg);
+    align-content: flex-start;
+      
+    
+}
+
+.rectangles{
+    width: 4rem;
+    height: 2rem;
+    display: inline-flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 12px;
+   
+} 
+
+.orange, .ultramarine, .olive{
+    
+    min-width: 15px;
+	min-height: 15px;
+
+
+}
+
+.mosaic{
+    flex-direction: row;
+    padding: 6px 24px;
+    background-color:white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+h1{
+    font-size: 2.7em;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff ;
+    padding-top: 0.5rem;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica', Arial, sans-serif;
+    line-height: 3rem;
+     
+   }
+
+h2{
+    font-size: 1.4rem;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+   
+    font-weight: lighter;
+    flex-wrap: wrap;
+    font-weight: inherit;
+    text-align: center;
+    line-height: 2rem;
+    color: #C8C8B8;
+    padding-bottom: 0.5rem;
+   
+}
+
+h3{
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    font-weight: inherit;
+    text-align: left;
+    line-height: 2.7rem;
+    color: #383830;
+    font-weight: lighter;
+   
+   
+}
+
+
+
+.informationmain{
+    
+    font-family: 'Droid Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-weight: bold;
+    color: rgba(30,30,30,0.8);
+    background-color:white ;
+    display: inline-flex;
+    padding: 12px 24px;
+    
+   }
+a{
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+ 
+  margin-right: 60%;
+    padding-bottom: 0.5rem;
+    padding-top: 0.1rem;
+    padding-left: 0.1rem;
+}
+
+   a:hover {
+    text-decoration: underline; 
+    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background: rgba(125, 137, 241, 0.9); /* Цвет фона */
+	cursor: pointer;}
+.informationmain h1{
+    font-size: 2.5em;
+    font-weight: inherit;
+    text-align: left;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    line-height: none;
+    line-height: 0.8em;
+    padding-left: 24px;
+     
+}
+.instruction p, li{
+    font-size: 1.3em;
+    font-weight: normal;
+    color: rgb(100, 109, 89);
+    padding-left: 24px;
+    font-family: 'Droid Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    
+}
+.instruction li{
+    font-size: 1.3em;
+    font-weight: normal;
+    color: maroon;
+  
+    font-family: 'Droid Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    
+}
+ul{
+    margin-left: 12px;
+    padding-left: 24px;
+    color: maroon;
+    font-family: 'Droid Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+.leftpart{
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   margin-right: 24px;
+   justify-content: center;
+  
+
+}
+.leftpart img{
+        object-fit: contain;
+        image-rendering: crisp-edges;
+        max-width: 100%;
+        max-height: 100%;
+        
+}
+   
+
+   
+  .leftpart img:hover {
+    -webkit-transform: scale(1.01, 1.01);
+    transform: scale(1.01, 1.01);
+    box-shadow: 1px 15px 15px -5px rgba(0, 0, 0, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.1); 
+    border-radius: 1px;
+  }
+   
+ 
+   
+.rightpart{
+  display: flex;
+ width: 50%;
+ flex-direction: column;
+ align-content: flex-start;
+ margin-left: 12px;
+
+}
+.subtask{
+    display: flex;
+    transition: backround-color 1s linear 1s;
+    flex-direction: row;
+    align-items: center;
+
+    
+}
+.description:hover {
+background-color:rgba(125, 137, 241, 0.5);
+ cursor: pointer;}
+
+.subtask img{
+    width: 8%;
+    height: auto;
+    margin: 10px;
+    
+}
+.description{
+    width: 80%;
+ display: flex;
+ flex-direction: column;
+ transition-property: background-color;
+ transition-duration: 0.3s;
+ transition-timing-function: step-start;
+ transition-delay: 0.1s;
+ 
+}
+.external {
+    padding-bottom: 0;
+    margin-right: 0%;
+    text-decoration: none;
+}
+.external:hover {
+    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background-color: transparent; /* Цвет фона */
+    cursor: pointer;
+text-decoration: none;}
+    
+.description p{
+    padding-top: 3rem;
+    padding-right: 16px;
+    font-weight: lighter;
+    font-family: 'Droid Sans', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+
+.instruction{
+  
+    padding: 12px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+margin-bottom: 32px;
+}
+
+.one{
+    width: 50%;
+    margin-right: 24px;
+}
+.one{
+    width: 50%;
+    margin-left: 12px;
+}
+
+   footer{
+       height: 4rem;
+       background-color: white;
+       width: auto;
+       margin-left: 24px;
+   }
