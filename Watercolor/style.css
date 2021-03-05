@@ -592,3 +592,35 @@ iframe{
         
     }
 }
+@media only screen and (max-width: 720px){
+    header {height: 4rem;
+        width: 100%;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+    align-items: flex-start;
+    
+   
+  }
+    h1{
+        font-size: 1.6em;            
+        font-family: 'Roboto', 'Open Sans', 'Helvetica', Arial, sans-serif;
+        line-height: 1.6rem;
+        padding-bottom: 0.4rem;
+      
+         
+       }
+       h2{
+        visibility: hidden;
+       
+    }
+    h3{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+	    p{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+	}
+}
