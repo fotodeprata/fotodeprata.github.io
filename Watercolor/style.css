@@ -377,8 +377,8 @@ iframe{
     h1{
         font-size: 1.2em;            
         font-family: 'Roboto', 'Open Sans', 'Helvetica', Arial, sans-serif;
-        line-height: 1.5rem;
-        padding-bottom: 0.4rem;
+        line-height: 1.5em;
+        padding-bottom: 0.4em;
       
          
        }
@@ -387,12 +387,12 @@ iframe{
        
     }
     h3{
-        font-size: 1rem;
-        line-height: 1.2rem;
+        font-size: 1em;
+        line-height: 1.2em;
     }
     .rectangles{
-        width: 2rem;
-        height: 1rem;
+        width: 2em;
+        height: 1em;
        margin-top: 2px;
        
     } 
@@ -432,17 +432,17 @@ iframe{
         
         }
         .one span{
-           font-size: 1.5rem;
+           font-size: 1.5em;
            font-weight: bold;
         }
 
         .description a{
             visibility: hidden;
-            font-size: 0.2rem;
+            font-size: 0.2em;
         }
         .description h3{
             visibility: visible;
-            font-size: 1rem;
+            font-size: 1em;
             font-weight: bold;
             margin-top: 2px;
             
@@ -462,7 +462,7 @@ iframe{
             
         }
         .description{
-            height: 1.3rem;
+            height: 1.3em;
            
             padding: 0;
             margin: 2px;
@@ -471,10 +471,10 @@ iframe{
             width: 35%;
         }
         .two li{
-            font-size: 1rem;
+            font-size: 1em;
         }
         .instruction p{
-            font-size: 1rem;
+            font-size: 1em;
         }
         .informationmain{
             flex-flow: column wrap;
@@ -499,14 +499,14 @@ iframe{
         width: 35%;
     }
     footer{
-        font-size: 0.8rem;
+        font-size: 0.8em;
         flex-direction: column;
         margin: 0 auto;
         
     }
     footer p
     {
-        font-size: 0.8rem;
+        font-size: 0.8em;
         
     }
     footer img{
@@ -516,14 +516,14 @@ iframe{
     }
     .one .Name{
         color: #383830; 
-        font-size: 1.5rem; 
+        font-size: 1.5em; 
         font-family: 'Source Sans Pro', Helvetica, sans-serif;
      }
      
      .one .Text{
          color: #383830;       
-         font-size: 1rem; 
-         line-height: 2rem;
+         font-size: 1em; 
+         line-height: 2em;
          font-family: 'Source Sans Pro', Helvetica, sans-serif;
          box-align: justify;
          font-weight: lighter;
@@ -537,13 +537,13 @@ iframe{
     padding: 0;
 }
      .Langen{
-         font-size: 00.8rem;
+         font-size: 00.8em;
          margin: 0;
          padding: 10px 2px;
      }
      .Langru
      {
-         font-size: 00.8rem;
+         font-size: 00.8em;
          margin: 0;
          padding: 10px 2px;
      }
