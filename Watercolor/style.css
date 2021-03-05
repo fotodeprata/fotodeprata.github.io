@@ -592,7 +592,7 @@ iframe{
         
     }
 }
-@media only screen and (min-width: 720px){
+@media only screen and (max-width: 600px){
     header {height: 4rem;
         width: 100%;
     padding-left: 0.4rem;
